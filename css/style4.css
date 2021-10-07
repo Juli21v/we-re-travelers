@@ -1,0 +1,198 @@
+.navegacion{
+    display: flex;
+    background-color: blanchedalmond;
+    position: fixed;
+    top: 0.1px;
+    z-index: 100;
+    height: 120px;
+    font-size: 22px;
+}
+
+
+.listas{
+   position: absolute;
+   left: 15%;
+
+    
+}
+
+.lista{
+    padding: 10px 20px;
+
+}
+
+.lista .nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+
+.logotravelers {
+    width: 140px;
+    height: 90px;
+    padding-left: 20%;
+}
+
+
+
+.lista .nav-link:hover {
+    color: #ec3315;
+}
+
+
+
+.nav.item a {
+    margin-left: 50%;
+       
+
+}
+
+.navbar-toggler{
+    background-color: #ec3315;
+}
+
+
+/* login */
+
+.iconodetails {
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 17px;
+  }
+.iconodetails:hover{
+color: #ec3315;
+}
+  #loginuser{
+    color: #ec3315;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+  }
+  #loginuser:hover{
+   color: tomato;
+  }
+
+
+/* parques urbanos */
+
+
+
+
+.contenedorUrbano h2 {
+    padding-top: 10%;
+    text-align: center;
+    color: #ec3315;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.containerparks {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.containercajas {
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.texto {
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.imagen {
+    padding-right: 30px;
+}
+
+.imagen2 {
+    padding-right: 30px;
+}
+
+.texto2 {
+    padding-left: 30px ;
+    padding-top: 30px;
+    padding-right: 30px;
+    text-align: justify;
+
+}
+
+h3 {
+    text-align: center;
+
+}
+
+.imagenparks {
+    height: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* videos */
+
+
+.urbano h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    color: #ec3315;
+    margin-bottom: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #ec3315;
+    margin-top: 150px;
+}
+
+.redes img{
+    width: 35px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    
+}
+
+.copy{
+    background-color: rgba(0, 0, 0, 0.2);
+}

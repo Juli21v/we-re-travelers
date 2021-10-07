@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parques Tematicos</title>
+
+    <link rel="shortcut icon" href="img/pngegg.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style2.css">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top" >
+            <div class="container-fluid navegacion">
+              <a class="navbar-brand" href="index.html">
+                <img class="logotravelers" src="img/logo.png" alt="logo" />
+              </a>
+      
+              <button
+                class="navbar-toggler alert-danger" 
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto text-center text-sm-center text-md-center text-lg-center ml-4  listas">
+                  <li class="nav-item lista">
+                    <a class="nav-link active" aria-current="page" href="index.html">
+                      Inicio
+                    </a>
+                  </li>
+                  <li class="nav-item lista">
+                    <a class="nav-link" href="parquetematico.html"> Parques Temáticos </a>
+                  </li>
+                  <li class="nav-item lista">
+                    <a class="nav-link" href="parquenatural.html"> Parques Naturales </a>
+                  </li>
+                  <li class="nav-item lista">
+                    <a class="nav-link" href="parquesurbanos.html"> Parques Urbanos </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="login d-flex flex-row justify-content-center align-items-flex-end mt-4">
+                <div class="iconodetails">
+                  <a id="login" class="nav-link" href="#"
+                    ><img width="60px" src="img/user.png" alt="user"
+                  /></a>
+                  <p>Login</p>
+                </div>
+                <div class="iconodetails">
+                  <a id="logout" class="nav-link" href="#"
+                    ><img width="40px" src="img/salir.png" alt="exit"
+                  /></a>
+                  <p>Logout</p>
+                </div>
+                <div class="iconodetails">
+                  <p id="loginuser" class="nav-user"></p>
+                </div>
+              </div>
+
+            </div>
+          </nav>
+    </header>
+
+
+    <!-- Carousel Kevin -->
+
+
+    <section class="container">
+
+      <h1>Parques Temáticos</h1>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner disney">
+            <div class="tittle-details">
+              <h2>Disneyland Park</h2>
+           </div>
+            <div class="carousel-item active">
+              <img src="img/disney1.jpg" class="d-block img-fluid" alt="disneyland">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/disney2.jpg" class="d-block img-fluid" alt="disney-2">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/disney3.jpg" class="d-block img-fluid" alt="disney-3">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+        </div>
+            <p class="py-5 px-7"><b>Disneyland</b>, oficialmente <b>Disneyland Park</b> desde los años 1990, y también conocido como <b>Disneylandia</b> en español, es un parque temático <br>
+                           situado en Anaheim, California, Estados Unidos. Fue el primer parque de este tipo construido por The Walt Disney Company, y el único que fue diseñado y <br>
+                           construido bajo la supervisión del productor y cineasta estadounidense Walt Disney.</p>
+        <br><br><br>
+        <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="tittle-details">
+              <h2>Triassic Park</h2>
+           </div>
+            <div class="carousel-item active">
+              <img src="img/triassic1.jpg" class="d-block img-fluid" alt="triassic-1">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/triassic2.jpg" class="d-block img-fluid" alt="triassic-2">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/triassic3.jpg" class="d-block img-fluid" alt="triassic-3">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="py-5 px-7"><b>Triassic Park</b> es un parque temático de dinosaurios, al aire libre y totalmente gratuito. Se encuentra ubicado en la Steinplatte, <br>
+                            en la frontera de Austria con Alemania. El parque consta de diversas estaciones con distintos tipos de dinosaurios, que nos contarán una <br>
+                            pequeña historia sobre las características del mismo.</p>
+        <br><br><br>
+        <div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="tittle-details">
+              <h2>Sea World Gold Coast</h2>
+           </div>
+            <div class="carousel-item active">
+              <img src="img/sea-world-1.jpg" class="d-block img-fluid" alt="sea-world-gc-1">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/sea-world-2.jpg" class="d-block img-fluid" alt="sea-world-gc-2">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/sea-world-3.jpg" class="d-block img-fluid" alt="sea-world-gc-3">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="py-5 px-7"><b>Sea World</b> es un parque de mamíferos marinos, oceanario y parque temático ubicado en Gold Coast, Queensland, Australia. <br>
+                            Incluye atracciones, exhibiciones de animales y otras atracciones, y promueve la conservación a través de la educación y el <br>
+                            rescate y rehabilitación de la vida silvestre enferma, herida o huérfana. El parque está vinculado comercialmente a Warner Bros. <br>
+                             Movie World y Wet'n'Wild Gold Coast como parte de la división de parques temáticos de Village Roadshow.</p>
+        <br><br><br>
+        <div id="carouselExampleCaptions4" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="tittle-details">
+              <h2>Drayton Manor Park</h2>
+           </div>
+            <div class="carousel-item active">
+              <img src="img/drayton-1.jpg" class="d-block img-fluid" alt="drayton--1">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/drayton-2.jpg" class="d-block img-fluid" alt="drayton-2">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/drayton-3.jpg" class="d-block img-fluid" alt="drayton-3">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="py-5 px-7"><b>Drayton Manor Theme Park</b> es un parque temático, zoológico y alojamiento en los terrenos de la antigua Drayton Manor, <br>
+                            en Drayton Bassett, Staffordshire, Inglaterra, Reino Unido. Es el cuarto parque de atracciones más grande del Reino Unido. <br>
+                            El parque también alberga Thomas Land y Drayton Manor Zoo, hogar de más de 100 animales, incluidos pandas rojos, <br>
+                            linces euroasiáticos, tigres de Sumatra y una variedad de monos y gibones.</p>
+      </section>
+
+
+
+   <!-- Curiosidades Julian -->
+
+
+      <section class="sabias py-2">
+        <h2 class="titulocu">CURIOSIDADES</h2>
+  
+        <div
+          class="
+            contenedorcu
+            container-fluid
+            text-left text-sm-left text-md-left text-lg-left text-xl-left
+          "
+        >
+          <div class="contenedorsabias">
+            <h3>¿SABÍAS QUE?</h3>
+            <img src="img/bombillo.png" alt="bombillo" class="img-fluid" />
+          </div>
+          <p>
+            Estos parques temáticos, son reconocidos por poseer en sus atracciones
+            diferentes tipos de animatronicos, los cuales a lo largo <br />
+            del mundo han provocado a sus visitantes un miedo llamado la
+            <b>"Submecanofobia"</b> y la <b>"Megalofobia"</b> los cuales
+            representan en si el miedo, <br />
+            a objetos con apariencia humana o monstruosa, ya sea sumergidos debajo
+            del agua, o de gran tamaño, entre estos podemos destacar, <br />
+            a <b>"Cymbospondylus"</b> el cual representa al ictiosaurio
+            perteneciente a la era de los dinosuarios y que al igual que este, se
+            encuentra <br />
+            sumergido debajo del agua, asustando a los visitantes del parque
+            <b>"Triassic park"</b> con su afilados dientes. <br />
+            Otro ejemplo de estos animatronicos, los encontramos en
+            <b>"Drayton manor"</b>, donde en la atracción
+            <b>"Shark pirates"</b> se encuentran muchos <br />
+            animatronicos que representan piratas, contandonos a modo de
+            espectaculo, una historia, y que en su mayoria producen miedo al
+            encontrarte <br />
+            muy cerca de ellos y además a oscuras, incluso a mitad de la obra,
+            podemos ver como un tiburon, persigue ferozmente a una tropa de
+            piratas en plena cena. <br />
+            Otro ejemplo de esto mismo lo encontramos en <b>"Disneyland"</b> con
+            la atracción <b>"Journey the center of the earth"</b> en donde a lo
+            largo de <br />
+            una montaña rusa, podemos ver el centro de la tierra, rodeado de
+            cristales, gemas, carritos de mineria, y casi al final de la
+            atracción, <br />
+            veremos al <b>"Lava monster"</b> un monstruo hecho de lava, que
+            gruñira al ver a los visitantes, y que es tan colosal que genera en
+            sus espectadores <br />
+            miedo puesto que sus movimientos y cercania al público es fatal. Por
+            ultimo tenemos el parque temático <b>"Sea world gold coast"</b> en
+            donde <br />
+            podemos apreciar en todo el parque diferentes representaciones de
+            dinosaurios en forma de animatronicos, ya sea desde T-rex hasta un
+            <br />
+            kraken que intimida a sus espectadores con sus enormes tentaculos.
+          </p>
+        </div>
+      </section>
+      <section class="contencu1 container-fluid p-5 mt-4">
+        <h3 class="clickaqui">¡Haz click en las imágenes!</h3>
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <div class="imagenes-curiosidadesT">
+              <img
+                src="img/lava.jpg"
+                alt="lava"
+                class="img-fluid"
+                id="pre1"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col sm-4">
+            <div class="imagenes-curiosidadesT">
+              <img
+                src="img/pirates.jpg"
+                alt="pirates"
+                class="img-fluid"
+                id="pre2"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col sm-4">
+            <div class="imagenes-curiosidadesT">
+              <img
+                src="img/cymbospondylus.jpg"
+                alt="dino"
+                class="img-fluid"
+                id="pre3"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col sm-4">
+            <div class="imagenes-curiosidadesT">
+              <img
+                src="img/kraken.jpg"
+                alt="kraken"
+                class="img-fluid"
+                id="pre4"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col sm-4">
+            <div class="imagenes-curiosidadesT">
+              <img
+                src="img/tiburon.jpg"
+                alt="tiburon"
+                class="img-fluid"
+                id="pre5"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col sm-4">
+            <div class="imagenes-curiosidadesT">
+              <img
+                src="img/submeca.jpg"
+                alt="submeca"
+                class="img-fluid"
+                id="pre6"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+
+
+
+      <footer
+      class="text-center text-lg-start text-white text-sm-start text-md-start"
+      
+      >
+<!-- Grid container -->
+<div class="containerF p-4 pb-0">
+  
+  
+    <!--Grid row-->
+    <div class="row">
+      <!-- Grid column -->
+      <div class="redes col-md-1 col-lg-1 col-xl-1 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">
+          Redes
+        </h6>
+        <a target="_blank" href="https://es-la.facebook.com/"> <img src="img/facebook.png" alt=""> </a> 
+        <a target="_blank" href="https://www.instagram.com/?hl=es"><img src="img/instagram.png" alt=""></a> 
+        <a target="_blank" href="https://twitter.com/?lang=es"><img src="img/twitter.png" alt=""></a> 
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contactenos</h6>
+          
+          <p> infoparques@gmail.com</p>
+          <p> + 57 1234567890</p>
+            
+        
+        </div>
+
+
+
+      
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">About</h6>
+        <p>Conoce tu parque soñado a través de un solo click 
+          en We're Travelers, donde los Parques Temáticos y 
+          Naturales hacen de este sitio, la mejor atracción.</p>
+      
+       
+      </div>
+
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Desarrolladores</h6>
+
+          <p>Katherin Wilches</p>
+          <p> Andreina Párica</p>
+          <p> Yanelys Corcho</p>
+          <p>Kevin Briceño</p>
+          <p>Julian Vargas</p>
+          <p>Giancarlo Odremán </p>
+          <p></p>
+      </div>
+    </div>
+   
+ 
+  
+</div>
+
+
+
+<div
+     class=" copy text-center p-3"
+     
+     >
+  © 2021 Copyright:
+  <a class="text-white" href="https://mdbootstrap.com/"
+     ></a
+    >
+</div>
+
+</footer>
+
+
+
+    <script src="js/preguntas1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
